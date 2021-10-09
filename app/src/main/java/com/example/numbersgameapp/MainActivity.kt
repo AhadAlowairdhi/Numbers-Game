@@ -80,5 +80,6 @@ class MainActivity : AppCompatActivity() {
 
         val GameOver = build.create()
         GameOver.setTitle("New Game")
+        GameOver.show()
     }
 }
